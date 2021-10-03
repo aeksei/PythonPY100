@@ -1,0 +1,12 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 118
+    length: 124
+    placeholder_text: '# TODO Каждое из значений печатать на отдельной строке'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false
