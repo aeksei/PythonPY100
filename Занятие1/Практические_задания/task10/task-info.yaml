@@ -1,0 +1,33 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 62
+    length: 6
+    placeholder_text: ' # TODO найти число сотен'
+  - offset: 86
+    length: 11
+    placeholder_text: '# TODO найти число десятков'
+  - offset: 115
+    length: 4
+    placeholder_text: '# TODO найти число единиц'
+  - offset: 138
+    length: 15
+    placeholder_text: '...  # TODO сформировать список чисел'
+  - offset: 201
+    length: 16
+    placeholder_text: '...)  # TODO сумма цифр'
+  - offset: 247
+    length: 16
+    placeholder_text: '...)  # TODO количество цифр'
+  - offset: 295
+    length: 16
+    placeholder_text: '...)  # TODO минимальная цифра'
+  - offset: 344
+    length: 16
+    placeholder_text: '...)  # TODO максимальная цифра'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false
