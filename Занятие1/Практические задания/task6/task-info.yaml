@@ -1,0 +1,13 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 139
+    length: 13
+    placeholder_text: '...  # TODO использую оператор возведения в степень найти площадь
+      круга'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false
