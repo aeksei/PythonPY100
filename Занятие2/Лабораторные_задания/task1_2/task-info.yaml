@@ -2,5 +2,9 @@ type: theory
 files:
 - name: main.py
   visible: true
+  placeholders:
+  - offset: 0
+    length: 149
+    placeholder_text: '# TODO'
 - name: __init__.py
   visible: false
