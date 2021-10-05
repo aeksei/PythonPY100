@@ -1,0 +1,3 @@
+wind = int(input())
+
+# TODO

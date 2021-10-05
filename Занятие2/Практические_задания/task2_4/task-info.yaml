@@ -1,0 +1,14 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: True
+  is_correct: false
+- text: False
+  is_correct: true
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: main.py
+  visible: true
+- name: __init__.py
+  visible: false

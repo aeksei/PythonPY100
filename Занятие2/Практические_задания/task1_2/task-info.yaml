@@ -1,0 +1,16 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 9
+    length: 1
+    placeholder_text: '...'
+  - offset: 14
+    length: 8
+    placeholder_text: '# TODO Вставьте любой оператор сравнения, чтобы выжение было
+      истинным'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

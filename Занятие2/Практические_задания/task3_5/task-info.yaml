@@ -1,0 +1,11 @@
+type: theory
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 21
+    length: 6
+    placeholder_text: '# TODO напишите с помощью if-elif-else условие проверки скорости
+      ветра'
+- name: __init__.py
+  visible: false
