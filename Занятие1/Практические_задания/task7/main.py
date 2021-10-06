@@ -1,8 +1,7 @@
-if __name__ == "__main__":
-    number = 25
+number = 25
 
-    d = number // 10
-    e = number % 10
+d = number // 10
+e = number % 10
 
-    print(d, e)
-    print(d + e)
+print(d, e)
+print(d + e)

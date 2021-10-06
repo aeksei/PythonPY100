@@ -3,7 +3,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 93
+  - offset: 58
     length: 13
     placeholder_text: '...  # TODO кортеж может сам развернуть свои значения по переменным'
 - name: __init__.py

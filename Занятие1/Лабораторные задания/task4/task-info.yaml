@@ -3,8 +3,8 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 118
-    length: 124
+  - offset: 83
+    length: 108
     placeholder_text: '# TODO Каждое из значений печатать на отдельной строке'
 - name: __init__.py
   visible: false

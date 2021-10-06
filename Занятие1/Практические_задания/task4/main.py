@@ -1,4 +1,3 @@
-if __name__ == "__main__":
-    input_str = input("Введите строку Hello World: ")
+input_str = input("Введите строку Hello World: ")
 
-    print(input_str, type(input_str))
+print(input_str, type(input_str))

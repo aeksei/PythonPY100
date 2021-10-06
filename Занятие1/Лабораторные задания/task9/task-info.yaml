@@ -3,7 +3,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 78
+  - offset: 39
     length: 22
     placeholder_text: '# TODO сложить два списка'
 - name: __init__.py

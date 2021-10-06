@@ -3,25 +3,25 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 63
+  - offset: 28
     length: 3
     placeholder_text: '...  # TODO ввести количество страниц'
-  - offset: 79
+  - offset: 40
     length: 2
     placeholder_text: '...  # TODO ввести количество строк'
-  - offset: 94
+  - offset: 51
     length: 2
     placeholder_text: '...  # TODO ввести количество символов в строке'
-  - offset: 116
+  - offset: 69
     length: 21
     placeholder_text: '...  # TODO общее количество символов в книге'
-  - offset: 156
+  - offset: 105
     length: 28
     placeholder_text: '...  # TODO размер одной книги в байтах'
-  - offset: 202
+  - offset: 147
     length: 37
     placeholder_text: '...  # TODO размер дискеты в байтах'
-  - offset: 251
+  - offset: 192
     length: 25
     placeholder_text: '...)  # TODO найти количество книг, которое поместится на дискете'
 - name: __init__.py

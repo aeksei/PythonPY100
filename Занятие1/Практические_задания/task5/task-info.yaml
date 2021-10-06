@@ -3,10 +3,10 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 74
+  - offset: 39
     length: 22
     placeholder_text: 'input("Ширина: ")  # TODO привести к целочисленному типу данных'
-  - offset: 114
+  - offset: 75
     length: 20
     placeholder_text: '...  # TODO посчитать периметр прямоугольника'
 - name: __init__.py

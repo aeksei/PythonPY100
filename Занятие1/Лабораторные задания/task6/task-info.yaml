@@ -3,8 +3,8 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 31
-    length: 87
+  - offset: 0
+    length: 75
     placeholder_text: '...  # TODO найти количество натуральных чисел кратных 23'
 - name: __init__.py
   visible: false

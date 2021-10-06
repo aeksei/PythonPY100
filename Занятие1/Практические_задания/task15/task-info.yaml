@@ -3,7 +3,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 59
+  - offset: 20
     length: 11
     placeholder_text: '# TODO поменяйте значения местами'
 - name: __init__.py

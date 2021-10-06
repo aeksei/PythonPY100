@@ -3,28 +3,28 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 62
+  - offset: 27
     length: 6
     placeholder_text: ' # TODO найти число сотен'
-  - offset: 86
+  - offset: 47
     length: 11
     placeholder_text: '# TODO найти число десятков'
-  - offset: 115
+  - offset: 72
     length: 4
     placeholder_text: '# TODO найти число единиц'
-  - offset: 138
+  - offset: 91
     length: 15
     placeholder_text: '...  # TODO сформировать список чисел'
-  - offset: 201
+  - offset: 146
     length: 16
     placeholder_text: '...)  # TODO сумма цифр'
-  - offset: 247
+  - offset: 188
     length: 16
     placeholder_text: '...)  # TODO количество цифр'
-  - offset: 295
+  - offset: 232
     length: 16
     placeholder_text: '...)  # TODO минимальная цифра'
-  - offset: 344
+  - offset: 277
     length: 16
     placeholder_text: '...)  # TODO максимальная цифра'
 - name: __init__.py

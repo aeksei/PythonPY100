@@ -3,8 +3,8 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 116
-    length: 146
+  - offset: 81
+    length: 126
     placeholder_text: '# TODO найти суммуб количество и среднее уникальных чисел'
 - name: __init__.py
   visible: false

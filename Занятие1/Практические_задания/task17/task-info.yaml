@@ -3,7 +3,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 95
+  - offset: 60
     length: 28
     placeholder_text: '...)  # TODO распечатать множество уникальных  чисел'
 - name: __init__.py

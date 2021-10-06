@@ -1,4 +1,3 @@
-if __name__ == "__main__":
-    list_ = list(range(9, -1, -1))
+list_ = list(range(9, -1, -1))
 
-    print(list_)
+print(list_)

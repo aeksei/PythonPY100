@@ -3,7 +3,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 139
+  - offset: 100
     length: 13
     placeholder_text: '...  # TODO использую оператор возведения в степень найти площадь
       круга'
