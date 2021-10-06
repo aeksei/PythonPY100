@@ -1,0 +1,11 @@
+type: theory
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 33
+    length: 291
+    placeholder_text: '...  # TODO с помощью методов строки join и split очистить
+      строку от лишних пробелов'
+- name: __init__.py
+  visible: false

@@ -1,0 +1,10 @@
+type: theory
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 29
+    length: 75
+    placeholder_text: '...  # TODO проверка совпадения строк'
+- name: __init__.py
+  visible: false
