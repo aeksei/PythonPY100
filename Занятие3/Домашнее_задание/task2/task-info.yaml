@@ -2,5 +2,9 @@ type: theory
 files:
 - name: main.py
   visible: true
+  placeholders:
+  - offset: 28
+    length: 153
+    placeholder_text: '# TODO проверить строку состоит ли она из символов 1 и 0'
 - name: __init__.py
   visible: false
