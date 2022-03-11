@@ -11,7 +11,7 @@ files:
     length: 11
     placeholder_text: '...  # TODO используя оператор остаток от деления найти количество
       единиц'
-  - offset: 65
+  - offset: 136
     length: 6
     placeholder_text: '...)  # TODO вычисления можно производить прямо в функции print'
 - name: __init__.py
