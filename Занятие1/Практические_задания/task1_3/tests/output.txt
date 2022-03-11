@@ -5,3 +5,4 @@ True False <class 'bool'>
 [] <class 'list'>
 test <class 'str'>
 {1, 2, 3} set() <class 'set'>
+{'Имя': 'Вася', 'Фамилия': 'Пупкин', 'Возраст': 18} {} <class 'dict'>

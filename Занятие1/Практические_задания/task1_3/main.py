@@ -20,3 +20,11 @@ print(str_, type(str_))
 set_ = {1, 2, 3, 1}  # Множество
 empty_set = set()  # Пустое множество
 print(set_, empty_set, type(set_))
+
+dict_ = {  # словарь
+    "Имя": "Вася",
+    "Фамилия": "Пупкин",
+    "Возраст": 18
+}
+empty_dict = {}
+print(dict_, empty_dict, type(dict_))
