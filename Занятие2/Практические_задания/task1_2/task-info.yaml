@@ -8,7 +8,7 @@ files:
     placeholder_text: '...'
   - offset: 14
     length: 8
-    placeholder_text: '# TODO Вставьте любой оператор сравнения, чтобы выжение было
+    placeholder_text: '  # TODO Вставьте любой оператор сравнения, чтобы выражение было
       истинным'
 - name: __init__.py
   visible: false
