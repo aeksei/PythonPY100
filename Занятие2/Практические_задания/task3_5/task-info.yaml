@@ -3,9 +3,9 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 21
-    length: 6
-    placeholder_text: '# TODO напишите с помощью if-elif-else условие проверки скорости
-      ветра'
+  - offset: 197
+    length: 49
+    placeholder_text: '# TODO добавить блок else и выдавать пользователю любое предупреждение
+      о том, что месяц указан неверно'
 - name: __init__.py
   visible: false
