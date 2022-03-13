@@ -1,16 +1,15 @@
-def pow_func(base, pow_=2):
-    # base ** pow_ -> реализовать через цикл while
-    result = 1
+def get_year_count(start_money, inflation):
+    current_money = start_money
+    count_years = 0
 
-    while pow_ > 0:
-        result *= base
-        pow_ -= 1
+    while True:
+        current_money = current_money * (1 - inflation)
+        count_years += 1
+        if current_money <= (start_money / 2):
+            break
 
-    return result
+    return count_years
 
 
 if __name__ == "__main__":
-    a = 5
-    n = 3
-
-    print(pow_func(a, n))
+    print(get_year_count(10000, 0.2))
