@@ -1,8 +1,8 @@
-def task(str1, str2, k):
+def task(str1: str, str2: str, k: int):
     if str1[:k] == str2[:k]:
-        print('ДА')
+        print("ДА")
     else:
-        print('НЕТ')
+        print("НЕТ")
 
 
 if __name__ == "__main__":

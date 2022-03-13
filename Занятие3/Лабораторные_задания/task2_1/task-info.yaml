@@ -3,7 +3,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 29
+  - offset: 44
     length: 75
     placeholder_text: '...  # TODO проверка совпадения строк'
 - name: __init__.py
