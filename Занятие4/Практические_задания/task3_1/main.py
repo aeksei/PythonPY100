@@ -1,12 +1,16 @@
+def dict_over_for_loop(n: int) -> dict:
+    dict_ = {}
+    for i in range(n):
+        dict_[i] = i ** 2  # присвоение словарю нового значения по несуществующему ранее ключу
+
+    return dict_
+
+
+def dict_comprehension(n: int) -> dict:
+    return {i: i ** 2 for i in range(n)}
+
+
 if __name__ == "__main__":
-    cart = {
-        "apple": 80,
-        "orange": 65,
-        "banana": 40
-    }
-
-    sum_ = 0
-    for fruit in cart:
-        print(cart[fruit])  # получаем значение по ключу
-
-    print(sum(cart.values()))
+    number = 10
+    print(dict_over_for_loop(number))
+    print(dict_comprehension(number))

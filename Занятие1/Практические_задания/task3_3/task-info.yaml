@@ -8,10 +8,10 @@ files:
     placeholder_text: ' # TODO найти число сотен'
   - offset: 47
     length: 11
-    placeholder_text: '# TODO найти число десятков'
+    placeholder_text: ' # TODO найти число десятков'
   - offset: 72
     length: 4
-    placeholder_text: '# TODO найти число единиц'
+    placeholder_text: ' # TODO найти число единиц'
   - offset: 91
     length: 15
     placeholder_text: '...  # TODO сформировать список чисел'

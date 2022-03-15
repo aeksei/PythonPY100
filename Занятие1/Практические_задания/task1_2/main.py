@@ -1,5 +1,5 @@
 foo = "Hello World"
-print(foo)
+print(foo, type(foo))
 
 foo = 123  # Перезаписываем содержимое переменной
-print(foo)
+print(foo, type(foo))

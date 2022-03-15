@@ -27,4 +27,5 @@ if __name__ == "__main__":
         "Соловьёв"
     ]
 
-    # TODO
+    for index, surname in enumerate(surname_list, start=1):
+        print(index, surname)

@@ -1,13 +1,12 @@
-type: theory
+type: output
 files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 209
-    length: 25
-    placeholder_text: '# TODO посчитать через метод values'
-  - offset: 115
-    length: 8
-    placeholder_text: '# TODO посчитать через ключи'
+  - offset: 244
+    length: 29
+    placeholder_text: '{...}  # TODO записать dict comprehension'
 - name: __init__.py
+  visible: false
+- name: tests/output.txt
   visible: false

@@ -1,4 +1,5 @@
 if __name__ == "__main__":
-    # постарайтесь не использовать "магические" числа,
-    # а по возможности дать переменным осмысленные названия и использовать их
-    ...
+    phrase = "Hello,world"
+    initial_offset = 5
+    for offset, char in enumerate(phrase, start=initial_offset):
+        print(" " * offset, char)

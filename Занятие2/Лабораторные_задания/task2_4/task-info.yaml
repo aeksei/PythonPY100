@@ -3,9 +3,12 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 164
-    length: 3
-    placeholder_text: '# TODO Распечатать строку лесенкой'
+  - offset: 75
+    length: 1
+    placeholder_text: '...  # TODO чему равно начальное смещение?'
+  - offset: 81
+    length: 94
+    placeholder_text: '# TODO как использовать начальное смещение в команде enumerate?'
 - name: __init__.py
   visible: false
 - name: tests/output.txt
