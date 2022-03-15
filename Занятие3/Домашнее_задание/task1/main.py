@@ -1,3 +1,15 @@
+def input_numbers():
+    numbers_list = []
+    while True:
+        number = int(input("Введите число: "))
+        if 3 <= number <= 13:
+            numbers_list.append(number)
+        if number < 0:
+            break
+
+    return numbers_list
+
+
 if __name__ == "__main__":
-    # Write your solution here
-    pass
+    numbers = input_numbers()
+    print(numbers)
