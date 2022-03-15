@@ -3,11 +3,8 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 209
+  - offset: 196
     length: 25
     placeholder_text: '# TODO посчитать через метод values'
-  - offset: 115
-    length: 8
-    placeholder_text: '# TODO посчитать через ключи'
 - name: __init__.py
   visible: false

@@ -5,7 +5,6 @@ if __name__ == "__main__":
         "banana": 40
     }
 
-    sum_ = 0
     for fruit in cart:
         print(cart[fruit])  # получаем значение по ключу
 
