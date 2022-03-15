@@ -1,18 +1,18 @@
-def get_count_char(str_):
-    # для начала переведем текст в нижний регистр
-    str_ = str_.lower()  # возвращается копия
-    char_dict = {}
+def get_count_char(str_: str) -> dict:
+
+    str_ = str_.lower()
+    char_dict = {}  # словарь для подсчета количества символов
 
     for char in str_:
-        if char.isalpha():  # далее с помощью метода строк isalpha будем проверять, является ли символ буквой
-            if char in char_dict:  # если символ уже есть среди ключей, то существующее значение увеличиваем на один
+        if char.isalpha():
+            if char in char_dict:
                 char_dict[char] += 1
-            else:  # в противном случае создаем новый элемент в словаре
+            else:
                 char_dict[char] = 1
     return char_dict
 
 
-def frequency_chars(char_dict):
+def frequency_chars(char_dict: dict) -> dict:
     total_count = sum(char_dict.values())
 
     return {char: round(value / total_count, 3) for char, value in char_dict.items()}
@@ -24,5 +24,5 @@ if __name__ == "__main__":
         В качестве разделителя для встроенного метода split будет выбран символ пробела. На выходе мы получим список отдельных слов. 
         Далее нужно отсортировать слова в алфавитном порядке, а после сортировки склеить их с помощью метода строк join. Приступим!!!!
     """
-
-    ...
+    chars_counter = get_count_char(main_str)
+    print(frequency_chars(chars_counter))
