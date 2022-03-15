@@ -12,4 +12,4 @@ files:
 - name: __init__.py
   visible: false
 - name: tests/output.txt
-  visible: true
+  visible: false
