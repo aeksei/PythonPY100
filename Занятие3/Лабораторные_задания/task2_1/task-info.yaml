@@ -1,4 +1,4 @@
-type: theory
+type: output
 files:
 - name: main.py
   visible: true
@@ -7,4 +7,6 @@ files:
     length: 75
     placeholder_text: '...  # TODO проверка совпадения строк'
 - name: __init__.py
+  visible: false
+- name: tests/output.txt
   visible: false
