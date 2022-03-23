@@ -3,6 +3,8 @@ language: English
 summary: |-
   Python course.
   Created: Aug 18, 2021, 1:25:11 PM.
+vendor:
+  name: Aeksei
 programming_language: Python
 environment: unittest
 content:

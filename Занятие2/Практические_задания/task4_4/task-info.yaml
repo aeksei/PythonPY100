@@ -5,8 +5,8 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 66
-    length: 59
+  - offset: 70
+    length: 55
     placeholder_text: '# TODO заменить значение 5-го элемента средним арифметическим'
 - name: tests/output.txt
   visible: false
