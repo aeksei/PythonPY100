@@ -1,1 +1,3 @@
-print(20 < 30)  # TODO
+print(20 < 30)
+print(20 <= 30)
+print(20 != 30)
