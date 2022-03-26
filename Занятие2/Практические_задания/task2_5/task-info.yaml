@@ -1,14 +1,16 @@
-type: choice
-is_multiple_choice: false
-options:
-- text: True
-  is_correct: true
-- text: False
-  is_correct: false
-message_correct: Congratulations!
-message_incorrect: Incorrect solution
+type: output
 files:
 - name: main.py
   visible: true
+  placeholders:
+  - offset: 276
+    length: 4
+    placeholder_text: '...  # TODO Упростить выражение и получить результат True или
+      False'
+  - offset: 48
+    length: 218
+    placeholder_text: '# TODO записать упрощение выражения в виде комментариев'
 - name: __init__.py
+  visible: false
+- name: tests/output.txt
   visible: false
