@@ -3,12 +3,15 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 12
+  - offset: 14
     length: 8
     placeholder_text: '...  # TODO запишите логическое выражение'
-  - offset: 28
-    length: 9
+  - offset: 58
+    length: 11
     placeholder_text: '...'
+  - offset: 37
+    length: 13
+    placeholder_text: '...  # TODO записать логическое выражение'
 - name: __init__.py
   visible: false
 - name: tests/output.txt
