@@ -1,5 +1,9 @@
 type: output
 files:
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false
 - name: main.py
   visible: true
   placeholders:
@@ -7,9 +11,5 @@ files:
     length: 1
     placeholder_text: '...  # TODO чему равно начальное смещение?'
   - offset: 81
-    length: 94
+    length: 95
     placeholder_text: '# TODO как использовать начальное смещение в команде enumerate?'
-- name: __init__.py
-  visible: false
-- name: tests/output.txt
-  visible: false
