@@ -1,6 +1,6 @@
-mount = int(input())
+mount = int(input("Введите номер месяца: "))
 
-if mount in [3, 4, 5]:
+if mount in range(3, 6):
     print("Весна")
 elif mount in [6, 7, 8]:
     print("Лето")

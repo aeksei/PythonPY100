@@ -1,4 +1,4 @@
-mount = int(input())
+mount = int(input("Введите номер месяца: "))
 
 if mount == 3 or mount == 4 or mount == 5:
     print("Весна")
